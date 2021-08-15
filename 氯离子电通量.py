@@ -25,3 +25,4 @@ qq = int(f.xy(900 * (2 * qq + q_t[0] + q_t[12]), 1))  # 未校正电通量
 q_corr = int(f.xy(qq * (95 / 100) ** 2, 1))  # 校正100mm试样电通量
 print(qq)
 print(q_corr)
+print('已在ThinkPad T410上修改！！')
